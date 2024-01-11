@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "lib": ["esnext", "dom"],
+    "strict": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+  },
+}
