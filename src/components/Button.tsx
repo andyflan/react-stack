@@ -13,6 +13,7 @@ export const Button: React.FC<ButtonProps> = ({
   appearance = 'primary',
   className,
 }) => (<button
+  type="button"
   className={classNames(
     "font-bold py-2 px-4 rounded",
     appearance === "primary" && "bg-blue-500 text-white",

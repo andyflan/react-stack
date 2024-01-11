@@ -1,8 +1,7 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
 
 
-interface LayoutProps extends React.PropsWithChildren {};
+interface LayoutProps extends React.PropsWithChildren {}; // eslint-disable-line @typescript-eslint/no-empty-interface
 
 export const Layout: React.FC<LayoutProps> = ({
   children,

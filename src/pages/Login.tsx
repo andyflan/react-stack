@@ -35,7 +35,7 @@ export const Login = () => {
       >Back to Dashboard</Button>
 
       <Button
-        onClick={() => alert('Login!')}
+        onClick={() => alert('Login!')} // eslint-disable-line no-alert
       >Login</Button>
     </>  
   );
